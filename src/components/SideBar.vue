@@ -2,13 +2,13 @@
   <div class="sideBar">
     <!--跳转到哪里就去to哪里，写路径-->
     <router-link to="">
-      <button @click="getMethod" class="button">导入学生信息</button>
+      <button class="button">导入学生信息</button>
     </router-link>
     <router-link to="">
-      <button @click="getMethod" class="button">抽取学生</button>
+      <button class="button">抽取学生</button>
     </router-link>
     <router-link to="">
-      <button @click="getMethod" class="button" >导出学生信息</button>
+      <button class="button" >导出学生信息</button>
     </router-link>
   </div>
 </template>
